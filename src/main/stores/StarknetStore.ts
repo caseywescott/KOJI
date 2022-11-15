@@ -11,7 +11,7 @@ export interface DrawerOptions {
 
 export class StarknetStore {
   drawerOptions: DrawerOptions = {
-    contract: "Shearing",
+    contract: "Ravel",
     keyN: "C",
     keyC: "Major",
     harmonies: 0,

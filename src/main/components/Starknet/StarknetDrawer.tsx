@@ -166,7 +166,7 @@ export const StarknetDrawer: FC = observer(() => {
             value={drawerOptions.contract}
             size="small"
             onChange={(ev) => onChangeForm("contract", ev.target.value)}
-            defaultValue="Ravel"
+            defaultValue="2 Part"
           >
             {contractOptions.map((contractOption, index) => (
               <MenuItem key={index} value={contractOption.value}>
